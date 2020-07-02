@@ -1,0 +1,1 @@
+you should not need to git init on a folder that has been created by the git clone command. git init is used to create a new repository fr
