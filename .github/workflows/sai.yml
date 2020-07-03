@@ -27,6 +27,7 @@ jobs:
       run: |
         git config --local user.dabbaranavyasree@gmail.com "action@github.com"
         git config --local user.Navyasree5 "GitHub Action"
+        git commit -m "Add changes" -a
     - name: files in it
       run: ls
 
