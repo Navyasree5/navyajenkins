@@ -28,6 +28,6 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: insert a script
-      run: vi kir.txt
+      run: cat -n kir.txt
         
         
