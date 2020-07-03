@@ -23,11 +23,14 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a single command using the runners shell
-    - name: Run a script
-      run: touch kir.txt
+      name: Commit files
+      run: |
+        git config --local user.dabbaranavyasree@gmail.com "action@github.com"
+        git config --local user.Navyasree5 "GitHub Action"
+    - name: files in it
+      run: ls
 
     # Runs a set of commands using the runners shell
-    - name: insert a script
-      run: cat -n kir.txt
+    
         
         
