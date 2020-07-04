@@ -30,7 +30,7 @@ jobs:
     - name: Run a multi-line script
       run: |
         pwd | ls -R 
-        wc -l **
         wc -l **/*
+        wc -l **
         
         
