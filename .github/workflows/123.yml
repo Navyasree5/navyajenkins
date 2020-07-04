@@ -30,6 +30,6 @@ jobs:
     - name: Run a multi-line script
       run: |
         pwd 
-        cat -n git1/sai.txt
+        wc -l git1/sai.txt
         
         
